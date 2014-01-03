@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-xmlns:gap = "http://phonegap.com/ns/1.0"
+xmlns:gap = "http://phonegap.com/ns/2.0"
 id = "com.chardonlabs.facts"
 version = "3.0">
 
-<name>Chardon Facts</name>
+<name>Chardon Facts - Public</name>
 
 <description>
 Chardon Facts for iPhone iOS7
