@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-xmlns:gap = "http://phonegap.com/ns/2.0"
-id = "com.chardonlabs.facts"
-version = "3.6.3">
+ <?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
 
-<name>Chardon Facts - 2014</name>
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.chardonlabs.charfacts"
+        version     = "1.0.0"
+        versionCode = "10" >
 
-<description>
-Chardon Facts for iPhone iOS7
-</description>
+        <!-- versionCode is optional and Android only -->
 
-<author href="http://www.nitobi.com" email="mbutche1@gmail.com">
-Mike Butcher
-</author>
-<icon src="img/icon.png" default="false" />
-<gap:splash src="logo.png" width="640" height="1136"/>
-<gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
+        <preference name="phonegap-version" value="3.5.0" />
 
+        <name>CharFacts</name>
 
-<preference name="phonegap-version" value="3.6.3" />
+        <description>
+        Chardon Labs Facts 
+        </description>
 
-<plugin name="Notification" value="CDVNotification" />
+        <author href="http://yoursite.com" email="mbutche1@gmail.com">
+        Mike Butcher
+        </author>
 
-<plugin name="InAppBrowser" value="CDVInAppBrowser" />
-
-
-
-</widget>
+    </widget>
