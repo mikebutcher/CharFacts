@@ -16,11 +16,12 @@
         Chardon Labs Facts 
         </description>
 
-        <author href="http://yoursite.com" email="mbutche1@gmail.com">
+        <author href="http://www.chardonlabs.com" email="mbutche1@gmail.com">
         Mike Butcher
         </author>
-
-    </widget>
     <icon src="img/icon.png" default="false" />
     <gap:splash src="logo.png" width="640" height="1136"/>
     <gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
+    
+    </widget>
+    
