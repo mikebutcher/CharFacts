@@ -1,26 +1,27 @@
- <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns = "http://www.w3.org/ns/widgets"
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.chardonlabs.6.15.15"
+version = "2.0">
 
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.chardonlabs.charfacts"
-        version     = "1.0.0"
-        versionCode = "10" >
+<name>CharFacts</name>
 
-        <!-- versionCode is optional and Android only -->
+<description>
+Chardon Facts
+</description>
 
-        <preference name="phonegap-version" value="3.6.3" />
+<author href="http://www.nitobi.com" email="mbutche1@gmail.com">
+Mike Butcher
+</author>
+<icon src="img/icon.png" default="false" />
+<gap:splash src="splash.png" width="640" height="1136"/>
+<gap:splash src="splash.png" gap:platform="ios" width="640" height="1136" />
 
-        <name>CharFacts</name>
+<preference name="phonegap-version" value="3.6.3" />
 
-        <description>
-        Chardon Labs Facts 
-        </description>
 
-        <author href="http://www.chardonlabs.com" email="mbutche1@gmail.com">
-        Mike Butcher
-        </author>
-    <icon src="img/icon.png" default="false" />
-    <gap:splash src="logo.png" width="640" height="1136"/>
-    <gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
-    
-    </widget>
+<gap:plugin name="org.apache.cordova.core.camera" />
+<gap:plugin name="org.apache.cordova.dialogs"  />
+<access origin="*" />
+
+</widget>
