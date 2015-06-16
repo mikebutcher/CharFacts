@@ -3,7 +3,8 @@
 
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "com.chardonlabs.charfacts"
-        version     = "1.0.0">
+        version     = "1.0.0"
+        versionCode = "10" >
 
         <!-- versionCode is optional and Android only -->
 
@@ -18,7 +19,8 @@
         <author href="http://www.chardonlabs.com" email="mbutche1@gmail.com">
         Mike Butcher
         </author>
-    
+    <icon src="img/icon.png" default="false" />
+    <gap:splash src="logo.png" width="640" height="1136"/>
+    <gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
     
     </widget>
-    
