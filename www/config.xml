@@ -17,7 +17,8 @@ Mike Butcher
 <gap:splash src="logo.png" width="640" height="1136"/>
 <gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
 
-<preference name="phonegap-version" value="3.6.0" />
+
+<preference name="phonegap-version" value="3.7.0" />
 
 <plugin name="Notification" value="CDVNotification" />
 
