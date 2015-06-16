@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/2.0"
 id = "com.chardonlabs.facts"
-version = "3.0">
+version = "3.6.3">
 
 <name>Chardon Facts - 2014</name>
 
@@ -18,7 +18,7 @@ Mike Butcher
 <gap:splash src="logo.png" gap:platform="ios" width="640" height="1136" />
 
 
-<preference name="phonegap-version" value="3.7.0" />
+<preference name="phonegap-version" value="3.6.3" />
 
 <plugin name="Notification" value="CDVNotification" />
 
